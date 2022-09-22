@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Soma</title>
+</head>
+<body >
+    <center>
+       <h1>Digite A</h1>
+       <input id="n1" type="number">
+       <h1>Digite B</h1>
+       <input id="n2">
+       <h1>Digite C</h1>
+       <input id="n3">
+       <button onclick="somar()">Somar</button>
+       <button id="bot">Resultado</button>
+       
+    </center>
+       <script>
+         var n1 = document.querySelector('#n1')
+         var n2 = document.querySelector('#n2')
+         var resultado = document.querySelector('#bot')
+      function somar(){
+        resultado.innerHTML = "O resultado é"
+        + (parseFloat(n1.value)+ 
+        parseInt(n2.value)) * parseInt(n3.value)
+      }  
+
+       </script>
+</body>
+</html>
