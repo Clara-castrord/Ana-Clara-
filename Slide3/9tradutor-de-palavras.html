@@ -1,0 +1,65 @@
+<html lang="pt-br">
+    <center>
+    <head>
+
+    <title>
+       9. Crie um script que tradutor de palavras em inglês e português utilizando o switch.
+    </title>
+    </head>
+<body>
+    <input id="f">
+    <button onclick="translate()">Traduzir</button>
+  <script>
+var expr = document.querySelector("#f")
+
+function translate () {
+switch (expr.value) {
+case "Olá":
+console.log("Hi");
+break;
+
+case "Feliz":
+console.log("Happy");
+break;
+case "Baunilha":
+console.log("Vanilla");
+break;
+
+case "Bom dia":
+console.log("Good Morning");
+break;
+
+case "Sereia":
+console.log("Mermaid");
+break;
+
+case "Água":
+console.log("Water");
+break;
+
+case "Branco":
+console.log("White");
+break;
+
+case "Preto":
+console.log("Black");
+break;
+
+case "Rosa":
+console.log("Pink");
+break;
+
+case "Roxo":
+console.log("Purple");
+break;
+
+default:
+console.log( + expr.value + ".");
+    }
+}
+</script>
+<br>
+Palavras: Olá, Feliz, Baunilha, Bom dia, Sereia, Água, Branco, Preto, Rosa, Roxo
+</body>
+</center>
+</html>
