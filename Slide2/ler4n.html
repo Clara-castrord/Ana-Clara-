@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ler quatro números</title>
+</head>
+<body>
+     <h1>Número 1</h1>
+     <input id="n1">
+     <h1>Número 2</h1>
+     <input id="n2">
+     <h1>Número 3</h1>
+     <input id="n3">
+     <h1>Número 4</h1>
+     <input id="n4"><p></p>
+     <button onclick="aparecer()">Aparecer</button>
+     <h1 id="bot">Vai Aparecer Aqui</h1>
+    <script>
+        var n1 = document.querySelector('#n1')
+        var n2 = document.querySelector('#n2')
+        var n3 = document.querySelector('#n3')
+        var n4 = document.querySelector('#n4')
+        var resultado = document.querySelector('#bot')
+         escreva ("1, 2, 3, 4")
+         leia (n1, n2, n3, n4)
+         
+          function aparecer(){
+              var media = (parseInt(n1.value) + parseInt(n2.value) + 
+              parseInt(n3.value) + parseInt(n4.value))
+          }  
+    </script>
+</body>
+</html>
