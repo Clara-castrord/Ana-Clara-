@@ -1,6 +1,7 @@
 # Ana-Clara-
 Slide1
 aluno.html -- usuário insere as 5 notas, vê a média e fala se o resultado é reprovado ou aprovado.
+
 equacao.html --  usuário insere 2 números e vê a equação do primeiro grau.
 inteiro.html -- usuário insere 2 números e calcula ele inteiro.
 media.html --  usuário insere 4 notas e calcula a média e o resultado é aprovado ou reprovado.
